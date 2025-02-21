@@ -30,7 +30,7 @@ function AxiosAPI() {
 
   return (
     <div>
-      <h2>Product List (by Axios)</h2>
+      <h2>Product List (by Axios Method)</h2>
 
       <div style={{ display: "grid",
         gridTemplateColumns: "repeat(4, 1fr)",gap: "20px"}}>
