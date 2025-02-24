@@ -39,7 +39,7 @@ return (
 
       <div style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)",gap: "20px"}}>
         {productData.map((product) => (
-          <div >
+          <div key={product.id}>
             <img src={product.thumbnail} alt={product.title} style={{ width: "50%", height: "50px", objectFit: "cover" }} />
             <h3>{product.title}</h3>
             <p>Price: ${product.price}</p>
